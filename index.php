@@ -10,6 +10,7 @@
    
         <form action="service.php" method="get"> 
             <textarea name="paragrafo" cols="60" rows="10" placeholder="inserisci testo" minlength="4"></textarea>
+            <input type="text" name="censura">
             <input type="submit" value="invia">
         </form>
    
